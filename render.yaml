@@ -1,9 +1,9 @@
 services:
   - type: web
-    name: red-x-rat-controller
+    name: Moneyhack
     runtime: node
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: node server.js
     envVars:
       - key: NODE_ENV
         value: production
